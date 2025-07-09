@@ -133,7 +133,7 @@ export const testimonials = [
       "Bhuvnesh’s commitment to excellence is unmatched. He delivered Our Website on time and Perfect Design. Highly recommended!",
     name: "Christophe Gerard",
     title: "French Yoga Tutor/Nutritionist",
-    image: "/testi1.png",
+    image: "/test4.jpg",
   },
 ];
 
