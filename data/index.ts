@@ -1,3 +1,5 @@
+import testi from "../public/testi1.png";
+
 export const navItems = [
   { name: "About", link: "#about" },
   { name: "Projects", link: "#projects" },
@@ -49,8 +51,8 @@ export const gridItems = [
 
   {
     id: 5,
-    title: "Currently building a JS Animation library",
-    description: "The Inside Scoop",
+    title: "Currently building a React AI Generative Web Application",
+    description: "GENIFFY AI",
     className: "md:col-span-3 md:row-span-2",
     imgClassName: "absolute right-0 bottom-0 md:w-96 w-60",
     titleClassName: "justify-center md:justify-start lg:justify-center",
@@ -72,68 +74,66 @@ export const gridItems = [
 export const projects = [
   {
     id: 1,
-    title: "3D Solar System Planets to Explore",
-    des: "Explore the wonders of our solar system with this captivating 3D simulation of the planets using Three.js.",
-    img: "/p1.svg",
-    iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/fm.svg"],
-    link: "/ui.earth.com",
+    title: "Turboax 5DE",
+    des: "Start for free. Pay only when you file. No matter how you file, TurboTax backs your taxes for the full 7-year life of your tax return, guaranteed",
+    img: "/Turbotax.png",
+    iconLists: ["/re.svg", "/tail.svg", "/ts.svg"],
+    link: "https://turbotax.intuit.com/",
   },
   {
     id: 2,
-    title: "Yoom - Video Conferencing App",
-    des: "Simplify your video conferencing experience with Yoom. Seamlessly connect with colleagues and friends.",
-    img: "/p2.svg",
-    iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/stream.svg", "/c.svg"],
-    link: "/ui.yoom.com",
+    title: "Bendigo Bank",
+    des: "Discover Bendigo Bank's large range of personal & business products. Credit cards, home loans, business loans, insurance, superannuation, bank accounts ...",
+    img: "/bendigo.png",
+    iconLists: ["/next.svg", "/tail.svg", "/ts.svg"],
+    link: "https://www.bendigoadelaide.com.au/",
   },
   {
     id: 3,
-    title: "AI Image SaaS - Canva Application",
-    des: "A REAL Software-as-a-Service app with AI features and a payments and credits system using the latest tech stack.",
-    img: "/p3.svg",
-    iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/c.svg"],
-    link: "/ui.aiimg.com",
+    title: "Feelo",
+    des: "Feelo brings you the best food, wellness, and travel deals near you — all in one place. Explore your city's hottest offers in seconds while saving more ...",
+    img: "/Feelo.png",
+    iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/c.svg"],
+    link: "https://feelo.ai/",
   },
   {
     id: 4,
-    title: "Animated Apple Iphone 3D Website",
-    des: "Recreated the Apple iPhone 15 Pro website, combining GSAP animations and Three.js 3D effects..",
-    img: "/p4.svg",
+    title: "Deqode Site",
+    des: "Recreated the Deqode official website using Next.js, Tailwind CSS, and TypeScript.",
+    img: "/Deqode.png",
     iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/three.svg", "/gsap.svg"],
-    link: "/ui.apple.com",
+    link: "https://deqode.com/",
   },
 ];
 
 export const testimonials = [
   {
     quote:
-      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-    name: "Michael Johnson",
-    title: "Director of AlphaStream Technologies",
+      "Bhuvnesh brought a rare mix of energy and precision to our project. His quick turnarounds and solid communication made collaboration easy and effective.",
+    name: "Ujjval Karma",
+    title: "Owner of SMM Agency/Freelancer",
+    image: "/testi2.png",
   },
   {
     quote:
-      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-    name: "Michael Johnson",
-    title: "Director of AlphaStream Technologies",
+      "Working with Bhuvnesh was seamless. His technical skill and creative ideas helped push our freelance project to the next level.",
+    name: "Mudit Tiwari",
+    title: "Worked together in Freelance/SDE-3",
+    image: "/testi1.png",
   },
   {
     quote:
-      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-    name: "Michael Johnson",
-    title: "Director of AlphaStream Technologies",
+      "Bhuvnesh consistently delivered high-quality work on time. His ability to handle pressure and keep a positive attitude was inspiring.",
+    name: "Rajat Malviya",
+    title: "Senior in My First company",
+    image: "/testi3.png",
   },
   {
     quote:
-      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-    name: "Michael Johnson",
-    title: "Director of AlphaStream Technologies",
-  },
-  {
-    quote:
-      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-    name: "Michael Johnson",
-    title: "Director of AlphaStream Technologies",
+      "Bhuvnesh’s commitment to excellence is unmatched. He delivered Our Website on time and Perfect Design. Highly recommended!",
+    name: "Christophe Gerard",
+    title: "French Yoga Tutor/Nutritionist",
+    image: "/testi1.png",
   },
 ];
 
@@ -173,28 +173,28 @@ export const companies = [
 export const workExperience = [
   {
     id: 1,
-    title: "Frontend Engineer Intern",
-    desc: "Assisted in the development of a web-based platform using React.js, enhancing interactivity.",
+    title: "Junior Frontend Developer",
+    desc: "Assisted in the development of a Ssocial Media Web App using React.js, enhancing interactivity.",
     className: "md:col-span-2",
     thumbnail: "/exp1.svg",
   },
   {
     id: 2,
-    title: "Mobile App Dev - JSM Tech",
+    title: "Freelance Mobile App Developer",
     desc: "Designed and developed mobile app for both iOS & Android platforms using React Native.",
-    className: "md:col-span-2", // change to md:col-span-2
+    className: "md:col-span-2",
     thumbnail: "/exp2.svg",
   },
   {
     id: 3,
-    title: "Freelance App Dev Project",
-    desc: "Led the dev of a mobile app for a client, from initial concept to deployment on app stores.",
-    className: "md:col-span-2", // change to md:col-span-2
+    title: "Freelance Web Developer",
+    desc: "Developed the Frontend of a web application using Next.js and Tailwind CSS.",
+    className: "md:col-span-2",
     thumbnail: "/exp3.svg",
   },
   {
     id: 4,
-    title: "Lead Frontend Developer",
+    title: "Solutions Engineer - Frontend Developer",
     desc: "Developed and maintained user-facing features using modern frontend technologies.",
     className: "md:col-span-2",
     thumbnail: "/exp4.svg",
@@ -205,13 +205,16 @@ export const socialMedia = [
   {
     id: 1,
     img: "/git.svg",
+    url: "https://github.com/bhuvnesh-gupta",
   },
   {
     id: 2,
     img: "/twit.svg",
+    url: "https://x.com/Bhuvnesh7135",
   },
   {
     id: 3,
     img: "/link.svg",
+    url: "www.linkedin.com/in/bhuvnesh1",
   },
 ];
